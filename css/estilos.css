@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    width: 100%;
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background: #fff;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 30px 30px 200px -50px rgba(247, 106, 106, 0.52);
+}
+
+.cover{
+    width: 333px;
+    height: 100%;
+    background-image: url(../image/portada.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container-icons{
+    text-align: center;
+}
+
+.gallery,
+.specifications,
+.component,
+.trailer{
+    padding: 20px;
+}
+
+.container-icons label{
+    font-size: 40px;
+    color: #7A7A7A;
+    cursor: pointer;
+}
+
+.container-icons .icon-images{
+    color: #EB5100;
+}
+
+.container-icons h4{
+    margin-top: 22px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.line{
+    width: 1px;
+    height: 400px;
+    background: #ecebeb;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin-left: 150px;
+}
+
+/*Estilos generales*/
+
+.container-gallery,
+.container-specifications,
+.container-component,
+.container-trailer{
+    width: 505px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    right: 0;
+}
+
+.container-gallery h1,
+.container-specifications h1,
+.container-component h1,
+.container-trailer h1{
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: #7a7a7a;
+}
+
+hr{
+    width: 400px;
+    height: 1px;
+    border-style: none;
+    background: #cecece;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+/*Contenedor de galeria*/
+
+.container-gallery:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-bottom: solid 16px #cfcfcf;
+    transform: rotate(-90deg);
+    margin-left: -34px;
+    margin-top: 40px;
+}
+
+.images{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image1,
+.image2,
+.image3,
+.image4{
+    margin: 5px;
+}
+
+.image1{
+    width: 240px;
+    height: 150px;
+    background-image: url(../image/image1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image2{
+    width: 240px;
+    height: 150px;
+    background-image: url(../image/image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image3{
+    width: 240px;
+    height: 150px;
+    background-image: url(../image/image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image4{
+    width: 240px;
+    height: 150px;
+    background-image: url(../image/image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*Conatiner especificaciones*/
+
+.container-specifications:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-bottom: solid 16px #cfcfcf;
+    transform: rotate(-90deg);
+    margin-left: -34px;
+    margin-top: 150px;
+}
+
+.container-specifications{
+    padding-right: 20px;
+}
+.container-specifications p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.container-specifications p font{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+/*Contenedor component*/
+
+.container-component:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-bottom: solid 16px #cfcfcf;
+    transform: rotate(-90deg);
+    margin-left: -34px;
+    margin-top: 270px;
+}
+
+.image-component{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: -12px;
+    margin-top: 20px;
+}
+
+
+/*Contenedor trailer*/
+
+
+.container-trailer:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-right: solid 14px transparent;
+    border-left: solid 14px transparent;
+    border-bottom: solid 16px #cfcfcf;
+    transform: rotate(-90deg);
+    margin-left: -34px;
+    margin-top: 390px;
+}
+
+video{
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.container-trailer p{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
